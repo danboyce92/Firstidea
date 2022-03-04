@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+div {
+    color: green;
+    font-size: 100px;
+}
+
+#space {
+    background: lightblue;
+}
+
+#circle {
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 200px 400px;
+    position: relative;
+    display: grid;
+  
+
+}
+
+#center {
+    margin: auto;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: black;  
+
+}
+
+#point1 {
+    position: absolute;
+    rotate: 45;
+    margin: -200px 0px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: red;  
+}
+
+#point2 {
+    position: absolute;
+    margin: 0px 200px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: blue;  
+}
+
+#point3 {
+    position: absolute;
+    margin: 141.421px 141.421px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: green;  
+}
+
+#point4 {
+    position: absolute;
+    margin: -141.421px -141.421px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: orange;  
+}
+
+#point5 {
+    position: absolute;
+    margin: 141.421px -141.421px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: lightblue;  
+}
