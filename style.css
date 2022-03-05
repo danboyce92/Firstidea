@@ -56,7 +56,7 @@ h1 {
 
 }
 
-#textbox {
+#inputbox {
     font-size: 35px;
     text-align: center;
     height: 60px;
@@ -66,6 +66,8 @@ h1 {
 
 #submitbutton {
     color: green;
+    height: 35px;
+    width: 60px;
 }
 
 /*
