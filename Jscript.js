@@ -1,9 +1,8 @@
 
-
-
 let button = document.getElementById('submitbutton');
 let background = document.getElementById('space');
-let chosenNumber = document.getElementById("inputbox").value;
+
+
 
 //takes a number and evenly spaces it out around the 
 //circumference of the circle
@@ -21,11 +20,13 @@ let array = [];
 let message = "The number was ";
 
 function work (){
+    let chosenNumber = document.getElementById("inputbox").value;
     alert(message + chosenNumber);
 }
 
 
-//process() should do all the work. create every step of the way
+//process() should do all the work. (process will replace above work function)
+//create every step of the way
 //separately and individually but afterward stick them all together
 //into the one function = process()
 
@@ -35,3 +36,7 @@ function work (){
 but I could see it would change to the desired color but
 change back immediately to the color designated in the 
 css sheet. Figure out how to bypass this.*/
+
+/* Problem with the button seems to be that the submit button works fine but
+the input box isn't connected to it. So right now I can't retrieve the value.
+*/
