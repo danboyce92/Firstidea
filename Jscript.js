@@ -9,15 +9,19 @@ let button = document.getElementById('submitbutton');
 
 function spacerOuter(num) {
 const lowestDenom = 360 / num;
+let array = [];
 
-    for(let x = lowestDenom; x < 360; x += lowestDenom){
-       console.log(x); 
+    for(let x = lowestDenom; x <= 360; x += lowestDenom){
+       array.push(x); 
     }
-
+    return array;
 }
 
 let message = "It's working";
-let userInput = document.getElementById('textbox');
 
-button.onclick = alert(userInput);
+function work (){
+    alert(message);
+}
+
+button.onclick = work;
 
