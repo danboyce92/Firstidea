@@ -1,10 +1,7 @@
 h1 {
     text-align: center;
-    margin: 50px;
-}
-div {
-    color: green;
-    font-size: 100px;
+    margin-top: 80px;
+    margin-left: 80px;
 }
 
 #space {
@@ -25,6 +22,7 @@ div {
 }
 
 #center {
+    position: relative;
     margin: auto;
     border-radius: 50%;
     width: 10px;
@@ -35,7 +33,6 @@ div {
 
 #point1 {
     position: absolute;
-    rotate: 45;
     margin: -200px 0px;
     border-radius: 50%;
     width: 10px;
@@ -43,6 +40,35 @@ div {
     background: red;  
 }
 
+#obj {
+    margin: auto;
+    transform: rotate(0deg);
+
+}
+
+#interface {
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 50px;
+    height: 250px;
+
+
+}
+
+#textbox {
+    font-size: 35px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+#submitbutton {
+    color: green;
+}
+
+/*
 #point2 {
     position: absolute;
     margin: 0px 200px;
@@ -78,3 +104,4 @@ div {
     height: 10px;
     background: lightblue;  
 }
+*/
